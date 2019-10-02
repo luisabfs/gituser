@@ -17,6 +17,8 @@ const styles = StyleSheet.create({
   },
 });
 
+console.log("oie");
+
 const App: () => React$Node = () => {
   return (
     <>
