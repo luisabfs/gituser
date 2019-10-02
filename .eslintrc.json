@@ -5,7 +5,8 @@
   "extends": ["airbnb", "prettier", "prettier/react"],
   "globals": {
     "Atomics": "readonly",
-    "SharedArrayBuffer": "readonly"
+    "SharedArrayBuffer": "readonly",
+    "__DEV__": "readonly"
   },
   "parser": "babel-eslint",
   "parserOptions": {
@@ -18,7 +19,7 @@
   "plugins": ["react", "prettier"],
   "rules": {
     "strict": 0,
-    "react/jsx-filename-extension": [1, {"extensions": [".js", ".jsx"]}],
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
     "import/prefer-default-export": "off",
     "react/jsx-one-expression-per-line": "off",
     "react/prefer-stateless-function": "off",
@@ -26,6 +27,9 @@
     "jsx-a11y/label-has-associated-control": "off",
     "jsx-a11y/label-has-for": "off",
     "react/no-unused-state": "off",
-    "no-param-reassign": "off"
+    "no-param-reassign": "off",
+    "react/state-in-constructor": "off",
+    "react/static-property-placement": "off",
+    "react/jsx-props-no-spreading": "off"
   }
 }
