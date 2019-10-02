@@ -1,14 +1,21 @@
 import React from 'react';
+
 import {
   SafeAreaView,
   StyleSheet,
-  ScrollView,
   View,
   Text,
   StatusBar,
 } from 'react-native';
 
 import {Header} from 'react-native/Libraries/NewAppScreen';
+
+const styles = StyleSheet.create({
+  engine: {
+    position: 'absolute',
+    right: 0,
+  },
+});
 
 const App: () => React$Node = () => {
   return (
@@ -25,12 +32,5 @@ const App: () => React$Node = () => {
     </>
   );
 };
-
-const styles = StyleSheet.create({
-  engine: {
-    position: 'absolute',
-    right: 0,
-  },
-});
 
 export default App;
