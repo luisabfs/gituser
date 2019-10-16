@@ -19,7 +19,7 @@
   "plugins": ["react", "prettier"],
   "rules": {
     "strict": 0,
-    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "react/jsx-filename-extension": [1, {"extensions": [".js", ".jsx"]}],
     "import/prefer-default-export": "off",
     "react/jsx-one-expression-per-line": "off",
     "react/prefer-stateless-function": "off",
@@ -30,6 +30,8 @@
     "no-param-reassign": "off",
     "react/state-in-constructor": "off",
     "react/static-property-placement": "off",
-    "react/jsx-props-no-spreading": "off"
+    "react/jsx-props-no-spreading": "off",
+    "react/no-typos": "off",
+    "react/sort-comp": "off"
   }
 }
