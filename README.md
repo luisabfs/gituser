@@ -5,3 +5,4 @@
 ## Knowledge and skills gained
 
 - Routing and navigation with react-navigation
+- Component styling with styled-components
