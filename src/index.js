@@ -7,7 +7,10 @@ import Routes from './routes';
 
 const App: () => React$Node = () => {
   return (
-    <Routes />
+    <>
+      <StatusBar barStyle="light-content" backgroundColor="#F36B7F" />
+      <Routes />
+    </>
   );
 };
 
