@@ -1,6 +1,6 @@
 # GitUser
 
-[!alt text](src/assets/print.png)
+![alt text](src/assets/print.png)
 
 > Simple React Native application for listing Github user's info.
 
