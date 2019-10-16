@@ -6,3 +6,4 @@
 
 - Routing and navigation with react-navigation
 - Component styling with styled-components
+- Native-driven gesture management with react-native-gesture-handler
