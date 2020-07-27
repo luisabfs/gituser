@@ -2,7 +2,7 @@
 
 > Simple React Native application for listing Github user's info.
 
-![alt text](src/assets/print.png)
+![alt text](src/assets/print2.png)
 
 ## Knowledge and skills gained
 
